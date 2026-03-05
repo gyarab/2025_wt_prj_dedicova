@@ -8,7 +8,7 @@ Po provedení <u>registrace</u> a následné <u>verifikaci</u> <u>identity</u> s
 
 Nejvyšší <u>hierarchii</u> zaujímá administrátor, který dohlíží na <u>integritu</u> a <u>bezpečnost</u> celého <u>ekosystému</u>. Jeho hlavní <u>činností</u> je <u>moderace</u> nahraného <u>materiálu</u>, aby byl v souladu s <u>podmínkami užití</u>. Administrátor definuje a upravuje <u>stromovou strukturu</u> <u>témat</u> a <u>tagů</u>, čímž udržuje <u>konzistenci</u> <u>strukturu ténat</u> celého <u>portálu</u>. Pravidelná <u>optimalizace</u> <u>databázových dotazů</u> a <u>reindexace</u> <u>vyhledávacího modulu</u> zajišťuje, že <u>uživatel</u> dostane <u>výsledky</u> <u>hledání</u> v řádu milisekund.
 
-![wireframe 1](/2025_wt_prj_dedicova/images/wireframe_1.jpg)
-![wireframe 2](/2025_wt_prj_dedicova/images/wireframe_2.jpg)
-![wireframe 3](/2025_wt_prj_dedicova/images/wireframe_3.jpg)
-![userflow](/2025_wt_prj_dedicova/images/userflow.jpg)
+![wireframe 1](./images/wireframe_1.jpg)
+![wireframe 2](./images/wireframe_2.jpg)
+![wireframe 3](./images/wireframe_3.jpg)
+![userflow](./images/userflow.jpg)
