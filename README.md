@@ -12,3 +12,4 @@ Nejvyšší <u>hierarchii</u> zaujímá administrátor, který dohlíží na <u>
 ![wireframe 2](./images/wireframe_2.jpg)
 ![wireframe 3](./images/wireframe_3.jpg)
 ![userflow](./images/userflow.jpg)
+![e-r diagram](./images/e-r_diagram.jpg)
