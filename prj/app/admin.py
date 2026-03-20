@@ -1,11 +1,14 @@
 from django.contrib import admin
-from .models import Meme, user
+from .models import Meme, Tag
 
 # Register your models here.
 
+
 @admin.register(Meme)
 class MemeAdmin(admin.ModelAdmin):
+    list_display=['title', 'description', 'user', 'rating', 'tag']
+    search_fields=['title']
+@admin.register(Tag)
+class TagAdmin(admin.ModelAdmin):
     list_display=['title']
-@admin.register(user)
-class userAdmin(admin.ModelAdmin):
-    pass
+    search_fields=['title']
