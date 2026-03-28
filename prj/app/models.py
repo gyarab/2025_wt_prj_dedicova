@@ -43,6 +43,9 @@ class Meme(models.Model):
 
     class Meta:
         ordering = ['-created_at'] 
+    
+    def __str__(self):
+        return self.title
 
 class Comment(models.Model):
     meme = models.ForeignKey(Meme, on_delete=models.CASCADE, related_name='comments')
