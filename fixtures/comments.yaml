@@ -1,0 +1,81 @@
+- model: app.comment
+  pk: 1
+  fields:
+    meme: 1
+    user: 1
+    content: Really gut
+    created_at: 2026-03-27 10:50:21.252522+00:00
+
+- model: app.comment
+  pk: 2
+  fields:
+    meme: 1
+    user: 2
+    content: Hilarious!
+    created_at: 2026-03-27 11:05:21.000000+00:00
+
+- model: app.comment
+  pk: 3
+  fields:
+    meme: 2
+    user: 3
+    content: Love this
+    created_at: 2026-03-27 11:15:30.123456+00:00
+
+- model: app.comment
+  pk: 4
+  fields:
+    meme: 3
+    user: 4
+    content: So true
+    created_at: 2026-03-27 11:25:45.654321+00:00
+
+- model: app.comment
+  pk: 5
+  fields:
+    meme: 2
+    user: 5
+    content: "😂😂"
+    created_at: 2026-03-27 11:35:00.000000+00:00
+
+- model: app.comment
+  pk: 6
+  fields:
+    meme: 4
+    user: 6
+    content: Not sure about this
+    created_at: 2026-03-27 11:45:10.000000+00:00
+
+- model: app.comment
+  pk: 7
+  fields:
+    meme: 5
+    user: 7
+    content: Fantastic artwork
+    created_at: 2026-03-27 12:00:00.000000+00:00
+
+- model: app.comment
+  pk: 8
+  fields:
+    meme: 3
+    user: 8
+    content: Can relate
+    created_at: 2026-03-27 12:10:05.250000+00:00
+
+- model: app.comment
+  pk: 9
+  fields:
+    meme: 4
+    user: 9
+    content: Made my day
+    created_at: 2026-03-27 12:20:30.500000+00:00
+
+- model: app.comment
+  pk: 10
+  fields:
+    meme: 5
+    user: 10
+    content: Great caption
+    created_at: 2026-03-27 12:30:45.750000+00:00
+
+

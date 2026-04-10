@@ -1,0 +1,49 @@
+- model: app.tag
+  pk: 1
+  fields:
+    title: Pes :)
+
+- model: app.tag
+  pk: 2
+  fields:
+    title: Funny
+
+- model: app.tag
+  pk: 3
+  fields:
+    title: Relatable
+
+- model: app.tag
+  pk: 4
+  fields:
+    title: Dank
+
+- model: app.tag
+  pk: 5
+  fields:
+    title: Wholesome
+
+- model: app.tag
+  pk: 6
+  fields:
+    title: Art
+
+- model: app.tag
+  pk: 7
+  fields:
+    title: Classic
+
+- model: app.tag
+  pk: 8
+  fields:
+    title: Animals
+
+- model: app.tag
+  pk: 9
+  fields:
+    title: Caption
+
+- model: app.tag
+  pk: 10
+  fields:
+    title: NSFW
