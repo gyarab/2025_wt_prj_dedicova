@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Api playground</h1>   
+    
+    <div class="api-test">
+        <h2> Test meme</h2>
+        <input type="number" id="meme-input" placeholder="Zadejte id memu">
+        <button id="meme-button" onclick="fetchMeme()">Zobrazit meme</button>
+        <button id="meme-clear-button" onclick="clearMeme()">Vymazat</button>
+        <pre id="meme-response" class="response"></pre>
+
+    <script>
+        function fetchMeme() {
+            const memeId = document.getElementById('meme-input').value;
+            fetch(`/api/meme/${memeId}/`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('meme-result').innerHTML = `<h3>${data.name}</h3><img src="${data.url}" alt="${data.name}" style="max-width: 300px;">`;
+                    document.getElementById('meme-response').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('meme-result').textContent = 'Error fetching meme';
+                    console.error('Error:', error);
+                });
+            console.log("Fetch called");
+        }
+
+        function clearMeme() {
+            document.getElementById('meme-response').textContent = '';
+        }
+    </script>
+{% endblock %}

@@ -26,7 +26,7 @@ def list_memes(request):
     memes = Meme.objects.all()
     return {"memes": [MemeSchema.from_orm(meme) for meme in memes]}
 
-@api.get("/memes/{meme_id}", response={200: MemeSchema, 404: Message})
+@api.get("/meme/{meme_id}", response={200: MemeSchema, 404: Message})
 def get_meme(request, meme_id: int):
     try:
         meme = Meme.objects.get(id=meme_id)
