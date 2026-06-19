@@ -5,7 +5,7 @@
 <template>
     <header>
         <RouterLink to="/">
-            <h1>FilmDB (vue)</h1>
+            <h1>MemeDB (vue)</h1>
         </RouterLink>
     </header>
     <main>
