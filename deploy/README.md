@@ -1,4 +1,4 @@
-# Nasazení FilmDB (deployment)
+# Nasazení MemeDatabase (deployment)
 
 Tahle složka přidává **nasazení aplikace na reálný server** — aplikace běží na
 **https://vch.gawt.dtcloud.cz**. Navazuje na lekci o Dockeru: aplikaci zabalíme do
@@ -92,7 +92,7 @@ Co playbooky dělají:
 ## Spustit celý stack přímo na serveru (debug)
 
 ```bash
-cd /home/vasek/filmdb/deploy   # = project_dir z inventory.ini
+cd /home/vasek/meme-database/deploy   # = project_dir z inventory.ini
 docker compose --env-file config/production.env -f docker-compose.yml up -d --build
 docker compose --env-file config/production.env -f docker-compose.yml logs -f web
 ```
