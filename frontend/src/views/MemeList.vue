@@ -6,8 +6,8 @@ import { onMounted, ref } from 'vue';
 
     async function fetchMemes() {
         try {
-            // configure backend base URL via VITE_API_BASE in .env (falls back to localhost:8000)
-            const apiBase = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
+            // Configure backend base URL via VITE_API_BASE; default to same-origin in production.
+            const apiBase = import.meta.env.VITE_API_BASE || '';
             const url = `${apiBase.replace(/\/$/, '')}/api/meme/`;
             const response = await fetch(url, { mode: 'cors' });
             if (!response.ok) {
