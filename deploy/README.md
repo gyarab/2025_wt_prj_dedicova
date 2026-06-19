@@ -92,7 +92,7 @@ Co playbooky dělají:
 ## Spustit celý stack přímo na serveru (debug)
 
 ```bash
-cd /home/vasek/meme-database/deploy   # = project_dir z inventory.ini
+cd /home/dedicova/meme-database/deploy   # = project_dir z inventory.ini
 docker compose --env-file config/production.env -f docker-compose.yml up -d --build
 docker compose --env-file config/production.env -f docker-compose.yml logs -f web
 ```
